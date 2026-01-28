@@ -32,140 +32,7 @@
             --shadow-hover: rgba(0, 0, 0, 0.15);
             --header-bg: rgba(255, 255, 255, 0.9);
         }
-        
-            /* Dark mode - dark background, white cards, dark text (no text color change) */
-            --bg-primary: linear-gradient(to bottom left, #1e293b, #0f172a, #1e3a3a);
-            --bg-card: #ffffff;
-            --bg-card-hover: #f8fafc;
-            /* Text colors stay exactly the same - dark and readable */
-            --text-primary: #0f172a;
-            --text-secondary: #475569;
-            --text-muted: #64748b;
-            --border-color: #cbd5e1;
-            --border-color-light: #bfdbfe;
-            --shadow: rgba(0, 0, 0, 0.2);
-            --shadow-hover: rgba(0, 0, 0, 0.3);
-            --header-bg: rgba(255, 255, 255, 0.9);
-        }
-        
-        /* Dark mode overrides */
-            background: var(--bg-card);
-            color: var(--text-primary);
-        }
-        
-            background: var(--bg-card);
-        }
-        
-            background: var(--bg-card-hover);
-            color: var(--text-secondary);
-            border-color: var(--border-color);
-        }
-        
-            color: var(--text-primary);
-            border-color: var(--border-color);
-        }
-        
-            background: var(--bg-card-hover);
-        }
-        
-            background: #0f172a;
-            border-color: var(--border-color);
-            color: var(--text-primary);
-        }
-        
-            border-color: #3b82f6;
-            background: #1e293b;
-        }
-        
-            color: var(--text-secondary);
-        }
-        
-            background: #0f172a;
-            border-color: var(--border-color);
-        }
-        
-            color: var(--text-primary);
-        }
-        
-            color: var(--text-secondary);
-        }
-        
-            border-color: #475569;
-            background: #0f172a;
-        }
-        
-            border-color: #3b82f6;
-            background: #1e293b;
-        }
-        
-            color: var(--text-muted);
-        }
-        
-            background: #334155;
-            color: var(--text-primary);
-            border-color: var(--border-color);
-        }
-        
-            background: #475569;
-        }
-        
-            color: var(--text-secondary);
-        }
-        
-            background: var(--bg-card-hover);
-            color: var(--text-primary);
-        }
-        
-            color: var(--text-secondary);
-        }
-        
-            background: #1e293b;
-            color: var(--text-primary);
-        }
-        
-            background: #0f172a;
-            color: var(--text-primary);
-            border: 1px solid var(--border-color);
-        }
-        
-            border-top-color: #0f172a;
-        }
-        
-            color: var(--text-secondary);
-        }
-        
-            background: var(--bg-card);
-            border-color: var(--border-color);
-            color: var(--text-secondary);
-        }
-        
-        /* Bank detail cards in dark mode - keep bank colors but adjust */
-            background: var(--bg-card);
-            border-color: var(--border-color);
-        }
-        
-            opacity: 0.95;
-        }
-        
-            background: #0f172a;
-        }
-        
-            color: var(--text-primary);
-        }
-        
-            color: var(--text-secondary);
-        }
-        
-        /* Best offer card - keep the green gradient but adjust for dark mode */
-            opacity: 0.95;
-        }
-        
-        /* Error messages */
-            background: #991b1b;
-            border-color: #dc2626;
-            color: #fecaca;
-        }
-        
+
         /* Text utilities that respect dark mode */
         p, span, div {
             color: inherit;
@@ -195,34 +62,22 @@
             font-weight: 700;
         }
         
-        /* Risk colors - adjust for dark mode */
+        /* Risk colors */
         .risk-low {
             background: #f0fdf4;
             color: #15803d;
         }
-        
-            background: #14532d;
-            color: #86efac;
-        }
-        
+
         .risk-medium {
             background: #fef3c7;
             color: #a16207;
         }
-        
-            background: #713f12;
-            color: #fde047;
-        }
-        
+
         .risk-high {
             background: #fee2e2;
             color: #dc2626;
         }
-        
-            background: #7f1d1d;
-            color: #fca5a5;
-        }
-        
+
         /* Risk breakdown tooltip */
         
         body {
@@ -807,27 +662,15 @@
             background: #dcfce7;
             color: #15803d;
         }
-        
-            background: #14532d;
-            color: #86efac;
-        }
-        
+
         .risk-badge-medium {
             background: #fef3c7;
             color: #a16207;
         }
-        
-            background: #713f12;
-            color: #fde047;
-        }
-        
+
         .risk-badge-high {
             background: #fee2e2;
             color: #dc2626;
-        }
-        
-            background: #7f1d1d;
-            color: #fca5a5;
         }
         
         .track-stats {
